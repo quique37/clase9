@@ -6,13 +6,12 @@
     
   function reprobadas (calificaciones) {
     let suma = 0
-    for (let index = 0; index < calificaciones.length; index++)
-    
-        if (calificaciones[index] < 6){
+    for (let index = 0; index < calificaciones.length; index++){
+        if (calificaciones[index] < 6)
             suma++
         }   
+        return suma++
 }
 
 const calificaciones = [10, 5, 5, 5,]
-console.log(calificaciones)
-
+console.log(reprobadas(calificaciones))

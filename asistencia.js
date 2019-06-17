@@ -9,5 +9,7 @@ function porcentaje (asistencias){
     }
     return nAsistencias / asistencias.length * 100
 }
-const asistencias = [true, true, false, true, false]
-console.log(porcentaje(asistencias))
+const porcentajeDeAsistencias = [true, false, false]
+console.log(porcentaje(porcentajeDeAsistencias))
+
+

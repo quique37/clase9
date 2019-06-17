@@ -12,7 +12,7 @@ function promedio (calificaciones) {
     return suma / calificaciones.length
 }   
 
-const xyz = [10, 7, 8, 9, 8, 7]
+const xyz = [10, 7, 8, 5, 8, 7]
 
 console.log(promedio(xyz))
 
@@ -20,5 +20,5 @@ console.log(promedio(xyz))
     {
         console.log("Tienes beca")
     } else {
-        console.log("No tienes beca")
+        console.log("No tienes beca, morro tonto")
     }
